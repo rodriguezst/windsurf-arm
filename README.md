@@ -10,9 +10,9 @@
 
 ## Install
 
-Download the [latest release](https://github.com/coder/windsurf-arm/releases/latest) and execute it.
+Download the [latest release](https://github.com/rodriguezst/windsurf-arm/releases/latest) and execute it.
 
-For Nix users: `nix run github:codeium/windsurf-arm` (this should work for all architectures, not just arm).
+For Nix users: `nix run github:rodriguezst/windsurf-arm` (this should work for all architectures, not just arm).
 
 ## FAQ
 
