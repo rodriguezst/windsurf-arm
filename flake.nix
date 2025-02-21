@@ -28,7 +28,7 @@
 
           windsurfSrc = builtins.fetchTarball {
             url = "https://windsurf-stable.codeiumdata.com/linux-x64/stable/ff5014a12e72ceb812f9e7f61876befac66725e5/Windsurf-linux-x64-1.3.4.tar.gz";
-            sha256 = "sha256:05y28qg9aqphixvdh4qhd8hwgi6dwll4rg8pryznhmbl62q19gsm";
+            sha256 = "sha256:0j13nyb59cyj4qlpdfdcrbljpaafq5msr8llvdnrk3a3fg6ihbaw";
           };
           vscodeLinuxArm64 = builtins.fetchTarball {
             url = "https://update.code.visualstudio.com/${vscodeVersion}/linux-arm64/stable";
