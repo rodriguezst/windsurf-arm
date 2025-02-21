@@ -45,7 +45,7 @@
           };
           languageServerArm64 = pkgs.fetchurl {
             url = "https://github.com/Exafunction/codeium/releases/download/language-server-v${languageServerVersion}/language_server_linux_arm";
-            sha256 = "sha256-agYAxMtRaF90a+kd72bpZJQV1/5WMLjFfdYCzElx9wU=";
+            sha256 = "sha256-CbRFYjIcT0neUUgKMKZ+t7U6ZYCm6EeZvXRrgNDS4qA=";
             executable = true;
           };
           fdArm64 = builtins.fetchTarball {
