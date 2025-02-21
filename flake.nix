@@ -41,7 +41,7 @@
           };
           languageServerWin = pkgs.fetchurl {
             url = "https://github.com/Exafunction/codeium/releases/download/language-server-v${languageServerVersion}/language_server_windows_x64.exe";
-            sha256 = "sha256-4tSwhbqmrc3oTCMnPFy8yXZAu2dT/9BO7VmD2+UBzPY=";
+            sha256 = "sha256-kBSfsRj1gF8N19YwCD1EgnJKMMJd3AI6KnyGQ1FC/Bo=";
           };
           languageServerArm64 = pkgs.fetchurl {
             url = "https://github.com/Exafunction/codeium/releases/download/language-server-v${languageServerVersion}/language_server_linux_arm";
